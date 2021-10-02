@@ -1,23 +1,57 @@
 * {
-/*CSS transitions*/
--o-transition-property: none !important;
--moz-transition-property: none !important;
--ms-transition-property: none !important;
--webkit-transition-property: none !important;
-transition-property: none !important;
-/*CSS transforms*/
--o-transform: none !important;
--moz-transform: none !important;
--ms-transform: none !important;
--webkit-transform: none !important;
-transform: none !important;
-/*CSS animations*/
--webkit-animation: none !important;
--moz-animation: none !important;
--o-animation: none !important;
--ms-animation: none !important;
-animation: none !important;
-}
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    }
+    footer {
+        /* border: 2px solid grey; */
+        color: #97fff3;
+        font-size: 1rem;
+    }
+    .tg3 img{
+        width:8rem;
+        height:auto;
+        margin-top: 12rem;
+    }
+    .tg4 img{
+        width:8rem;
+        height:auto;
+    }
+    .tg5 img{
+        width:8rem;
+        height:auto;
+    }
+    .inner{
+       height:15rem;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+        color:aqua;
+        background-color: rgba(17, 0, 255, 0.568);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: myFifthFont;
+        font-size: 1.5rem;
+        text-shadow:none;
+    }
+    
 .tag {
     font-size: 3rem;
 }
@@ -44,17 +78,19 @@ animation: none !important;
     width: 100%;
 }
 .divv {
-    font-size: 10px;
+    font-size: 20px;
     word-spacing:5px;
 }
 .hd {
     font-size: 14px;
     font-weight: bold;
 }
-.para {
-    padding: 10px;
-    height: 15rem;
-}
+
+    .para {
+        flex-direction: column;
+        padding: 10px;
+        height: 32rem;
+    }
 #boutus2 h1 {
     font-size: 4rem;
 }
