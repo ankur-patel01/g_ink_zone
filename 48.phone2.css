@@ -95,6 +95,14 @@
     font-size: 20px;
     word-spacing:5px;
 }
+#navbar ul li a {
+    font-size: 0.8rem;
+    margin-bottom:2px;
+    padding:3px;
+}
+#boutus2 h1 {
+    margin-top: 7rem;
+}
 .hd {
     font-size: 14px;
     font-weight: bold;
